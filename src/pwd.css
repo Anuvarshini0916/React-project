@@ -1,0 +1,75 @@
+.red:focus,
+.red {
+  outline: none;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.orange:focus,
+.orange {
+  outline: none;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+.lightgreen:focus,
+.lightgreen {
+  outline: none;
+  border: 2px solid hsl(120, 73%, 75%);
+  border-radius: 5px;
+}
+.green:focus,
+.green {
+  outline: none;
+  border: 2px solid rgb(142, 250, 93);
+  border-radius: 5px;
+}
+input {
+  height: 35px;
+  width: 270px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 19px;
+}
+.container {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 450px;
+  width: 400px;
+  border-radius: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+label {
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Kaushan Script", cursive;
+}
+form {
+  margin: 30px 30px 30px 60px;
+}
+#message {
+  color: red;
+  font-size: 15px;
+  font-family: "Trispace", sans-serif;
+}
+.window {
+  width: 50%;
+  height: 1000px;
+  background-color: pink;
+  margin: 0px 0px 0px 0px;
+}
+button {
+    align-items: center;
+}
